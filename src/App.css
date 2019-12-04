@@ -1,0 +1,65 @@
+.App{
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1520105072000-f44fc083e508?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    padding-top:20px;
+    color:white;
+    padding-bottom:200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .heybutton2{
+      padding-left:400px;
+      font-size: 40px;
+      box-shadow: 0px 10px 14px -7px #e247d5;
+      background:linear-gradient(to bottom, #db52b9 5%, #4e024e 100%);
+      border-radius:8px;
+      display:inline-block;
+      cursor:pointer;
+      color:white;
+      font-family:Arial;
+      font-size:20px;
+      font-weight:bold;
+      padding:10px 30px;
+      margin-top:50px;
+      text-decoration:none;
+    }
+    .heybutton2:hover {
+      background:linear-gradient(to bottom, #42033d 5%, #dd50d1 100%);
+    }
+    .heybutton2:active {
+      position:relative;
+    }
+  
+  .heybutton1{
+    background:linear-gradient(to bottom, #c96db2 5%, #4e024e 100%);
+    display:inline-block;
+    cursor:pointer;
+    font-weight: bold;
+    color:white;
+    padding:13px;
+
+
+  
+  }
+    
+  .heybutton3{
+    padding:20px;
+    background:linear-gradient(to bottom, #db52b9 5%, #8d198d 100%);
+    border-radius:8px;
+    text-align:flex;
+    margin:15px;
+  margin-top:100px;
+  color:white;
+  font-size:15px;
+  font-weight:bold;
+  
+  }
+  .input{
+    padding: 12px 20px;
+  }
+  

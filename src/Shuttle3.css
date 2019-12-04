@@ -1,0 +1,81 @@
+.Shuttle3 {
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1418075044186-bcf7d3a14e60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.title{
+  padding-top:20px;
+  font-family: Comic;
+  font-size:40px;
+color:yellow;
+  font-weight: bold;
+}
+
+.place{
+	margin-left: 50px;
+	margin-top:20px;
+}
+.time{
+	margin-left: 50px;
+	margin-top:20px;
+	padding-right:20px;
+}
+.driver{
+	margin-left: 50px;
+	margin-top:20px;
+}
+.product{
+  display:flex;
+line-height:2.0;
+  border:outset;
+ border-radius: 10px;
+ margin:30px;
+  margin-left:40px;
+  margin-right:40px;
+ padding:20px;
+ font-family:Arial;
+ font-weight:bold;
+ color:white;
+ background:linear-gradient(to bottom, #a10fdb 5%, #860580 100%);
+ border-radius: 10px;
+ padding-bottom:20px;
+ max-width: 800px;
+    margin: 20px auto;
+}
+.product:hover{
+  background:linear-gradient(to bottom, #9c399c 5%, #e26ed1 100%);
+	background-color:#408c99;
+}
+.product:active {
+	position:relative;
+	top:1px;
+}
+
+.mybutton1 {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 15px;
+  text-decoration:none;
+}
+
+.mybutton2{
+  background-color:rgb(234, 238, 6);
+	border-radius:3px;
+	display:inline-block;
+	color:purple;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+  text-decoration:none;
+  
+}
