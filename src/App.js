@@ -2,6 +2,7 @@ import React from 'react';
 import Shuttle from './Shuttle';
 import './App.css';
 import Shuttle3 from './Shuttle3';
+import Scan from './scan';
 
 import {
   BrowserRouter as Router,
@@ -23,6 +24,9 @@ function App() {
       </Route>
       <Route exact path="/shuttle3">
         <Shuttle3/>
+        </Route>
+        <Route exact path="/scan">
+        <Scan/>
       </Route>
     </div>
     </Router>
@@ -50,7 +54,7 @@ function HomePage() {
     </form>
     <Link to="/shuttle"><button className="heybutton2" >Find a shuttle</button></Link>
 <div>
-<button className="heybutton3" >Scan</button>
+<Link to="/scan"><button className="heybutton3" >Scan</button></Link>
 <Link to="/shuttle3"><button className="heybutton3" >Records</button> </Link>
 </div>
     </div>

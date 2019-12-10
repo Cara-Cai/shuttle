@@ -1,5 +1,11 @@
 .App{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+  
+  }
+  
+  .Home{
     background-image: url("https://images.unsplash.com/photo-1520105072000-f44fc083e508?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
     background-position: center; 
     background-repeat: no-repeat;
@@ -8,10 +14,8 @@
     padding-top:20px;
     color:white;
     padding-bottom:200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
   }
-  
+
   .heybutton2{
       padding-left:400px;
       font-size: 40px;
@@ -62,4 +66,7 @@
   .input{
     padding: 12px 20px;
   }
-  
+  .booked{
+    color:yellow;
+
+  }

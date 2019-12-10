@@ -1,5 +1,13 @@
 import React from 'react';
 import './Shuttle3.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+
 
 let cards=[
   {
@@ -25,10 +33,10 @@ let cards=[
   function Shuttle3() {
     return (
       <div className="Shuttle3">
+        <Link to="/"><button className="mybutton1" >back</button></Link>
         <div className="title">My Shuttle Records</div>
         <div className="shuttlecards">
        {cards.map(makecards)}
-       <button className="mybutton1" >back</button>
        </div>
       </div>
     );

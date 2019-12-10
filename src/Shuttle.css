@@ -2,18 +2,21 @@
   text-align: center;
   background-image: url("https://images.unsplash.com/photo-1545893835-abaa50cbe628?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1473&q=80");
   background-position: center; 
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover; 
-  padding-top:20px;
+  padding:60px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:20px;
+  padding-top:opx;
 }
-
 
 .cards{
 	text-align: center;
 	line-height:2.0;
 	border:outset;
    border-radius: 10px;
-	margin: 40px;
+   margin-top: 40px;
 	margin-left:500px;
 	margin-right:500px;
    padding:20px;
@@ -34,11 +37,8 @@
 	  top:1px;
   }
   
-.shuttle{
-	font-family:Georgia, 'Times New Roman', Times, serif;
-	font-size:20px;
-	padding:10px;
-  }
+
+
 
   .driver{
 	  margin-right:40px;
@@ -84,6 +84,10 @@
 	  font-family: comic;
 	  font-size:30px;
 	  font-weight:bolder;
-	  color:Yellow;
+	  color:black;
 	  margin-top:20px;
+  }
+  .seat{
+	  font-size:30px;
+	  color:yellow;
   }
